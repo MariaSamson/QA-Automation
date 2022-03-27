@@ -56,7 +56,7 @@ namespace TestProject
             webDriver.Navigate().GoToUrl("https://politrip.com/account/sign-up");
             webDriver.FindElement(By.Name("first-name")).SendKeys("Maria");
             webDriver.FindElement(By.Name("last-name")).SendKeys("Samson");
-            webDriver.FindElement(By.Name("email")).SendKeys("samson.mary.tuiasi.ro");
+            webDriver.FindElement(By.Name("email")).SendKeys("samson.mary@tuiasi.ro");
             webDriver.FindElement(By.Id("sign-up-password-input")).SendKeys("Samson1");
             webDriver.FindElement(By.Id("sign-up-confirm-password-input")).SendKeys("Samson1");
             webDriver.FindElement(By.Name("heard")).SendKeys("Web-Search");
@@ -72,7 +72,7 @@ namespace TestProject
             webDriver.Navigate().GoToUrl("https://politrip.com/account/sign-up");
             webDriver.FindElement(By.Name("first-name")).SendKeys("Maria");
             webDriver.FindElement(By.Name("last-name")).SendKeys("Samson");
-            webDriver.FindElement(By.Name("email")).SendKeys("samson.andreeaac.tuiasi.ro");
+            webDriver.FindElement(By.Name("email")).SendKeys("sam.andreeaac@tuiasi.ro");
             webDriver.FindElement(By.Id("sign-up-password-input")).SendKeys("12345678");
             webDriver.FindElement(By.Id("sign-up-confirm-password-input")).SendKeys("12345678");
             webDriver.FindElement(By.Name("heard")).SendKeys("Web-Search");
@@ -104,7 +104,7 @@ namespace TestProject
             webDriver.Navigate().GoToUrl("https://politrip.com/account/sign-up");
             webDriver.FindElement(By.Name("first-name")).SendKeys("Maria");
             webDriver.FindElement(By.Name("last-name")).SendKeys("Samson");
-            webDriver.FindElement(By.Name("email")).SendKeys("samson.mary@tuiasiro");
+            webDriver.FindElement(By.Name("email")).SendKeys("sam.mary@tuiasi.ro");
             webDriver.FindElement(By.Id("sign-up-password-input")).SendKeys("Samson1997");
             webDriver.FindElement(By.Id("sign-up-confirm-password-input")).SendKeys("Samson1998");
             webDriver.FindElement(By.Name("heard")).SendKeys("Web-Search");
@@ -113,16 +113,17 @@ namespace TestProject
 
 
         [Test]
-        // Chef if "How did you hear about us?" is empty
+        // Check if email is empty
         public void SeventhTest()
         {
             IWebDriver webDriver = new ChromeDriver();
             webDriver.Navigate().GoToUrl("https://politrip.com/account/sign-up");
             webDriver.FindElement(By.Name("first-name")).SendKeys("Maria");
             webDriver.FindElement(By.Name("last-name")).SendKeys("Samson");
-            webDriver.FindElement(By.Name("email")).SendKeys("samson.mary@tuiasiro");
+            webDriver.FindElement(By.Name("email")).SendKeys("");
             webDriver.FindElement(By.Id("sign-up-password-input")).SendKeys("Samson1997");
             webDriver.FindElement(By.Id("sign-up-confirm-password-input")).SendKeys("Samson1997");
+            webDriver.FindElement(By.Name("heard")).SendKeys("Web-Search");
             webDriver.FindElement(By.XPath("//button[@type='submit']")).SendKeys(Keys.Enter);
         }
 
@@ -165,7 +166,7 @@ namespace TestProject
             webDriver.Navigate().GoToUrl("https://politrip.com/account/sign-up");
             webDriver.FindElement(By.Name("first-name")).SendKeys("123");
             webDriver.FindElement(By.Name("last-name")).SendKeys("Samson");
-            webDriver.FindElement(By.Name("email")).SendKeys("tom@gmailcom");
+            webDriver.FindElement(By.Name("email")).SendKeys("tom@gmail.com");
             webDriver.FindElement(By.Id("sign-up-password-input")).SendKeys("Samson1997");
             webDriver.FindElement(By.Id("sign-up-confirm-password-input")).SendKeys("Samson1997");
             webDriver.FindElement(By.Name("heard")).SendKeys("Web-Search");
