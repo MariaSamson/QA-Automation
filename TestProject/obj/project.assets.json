@@ -1314,11 +1314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Automation Test\\TestProject\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "E:\\Automation Test\\TestProject\\Test\\QA-Automation\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "E:\\Automation Test\\TestProject\\TestProject\\TestProject.csproj",
+      "projectPath": "E:\\Automation Test\\TestProject\\Test\\QA-Automation\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\Maria Andreea\\.nuget\\packages\\",
-      "outputPath": "E:\\Automation Test\\TestProject\\TestProject\\obj\\",
+      "outputPath": "E:\\Automation Test\\TestProject\\Test\\QA-Automation\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maria Andreea\\AppData\\Roaming\\NuGet\\NuGet.Config",

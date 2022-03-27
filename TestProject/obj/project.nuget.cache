@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ljDpN8lnSwwau2IKfGjRNyh6a3EdVK9jIgD76HWDNYEN0PY2IdTLtmhGE+VIpi7usUUz4EPKbvJicceIUlm3Ug==",
+  "dgSpecHash": "7VdubA0JW+W5hIY6HM/4lifYW/IitfeUIgJylRuq/bOyO5D/z1ADXOzv0WVve5EpYJScnofjdabMrUia60Gl+w==",
   "success": true,
-  "projectFilePath": "E:\\Automation Test\\TestProject\\TestProject\\TestProject.csproj",
+  "projectFilePath": "E:\\Automation Test\\TestProject\\Test\\QA-Automation\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maria Andreea\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Maria Andreea\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
